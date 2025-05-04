@@ -11,8 +11,6 @@ if (speed >= 500 && connectionType === "fiber") {
   console.log("Acceptable DSL connection");
 } else if (speed < 50 && connectionType == "dsl") {
   console.log("Poor DSL connection");
-} else if (speed < 0) {
-  console.log("Invalid speed value");
 } else if (connectionType === undefined || connectionType === null) {
   console.log("Unknown connection type");
 } else if (speed === 0) {
